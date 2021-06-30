@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap");
+
+body {
+  background-color: #54c3ef;
+  font-family: "Source Sans Pro";
+}
+
+h1 {
+  font-family: "Caveat Brush", cursive;
+  font-size: 60px;
+  text-align: center;
+  color: #fad744;
+  text-shadow: 2px 5px #2b3252;
+  margin: 0;
+}
+
+h2 {
+  margin-top: 10px;
+  font-size: 35px;
+}
+
+h4 {
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.correct {
+  display: none;
+  color: green;
+}
+
+.wrong {
+  display: none;
+  color: red;
+}
+
+#headingDiv {
+  text-align: center;
+}
+
+.mainDiv {
+  position: relative;
+}
+
+#form {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: #2b3252;
+  color: #fad744;
+  border-radius: 6px;
+  padding: 16px;
+}
+
+.option {
+  margin-top: 15px;
+}
+
+.seperation {
+  background-color: #fad744;
+  width: 100%;
+  height: 1px;
+  margin-top: 40px;
+}
+
+.buttonDiv {
+  text-align: center;
+}
+
+.submitButton {
+  margin-top: 30px;
+  background-color: #fad744;
+  width: 70px;
+  height: 30px;
+  border-radius: 6px;
+  border: none;
+}
+
+.scoreDiv {
+  background-color: white;
+  width: 120px;
+  border-radius: 5px;
+  height: 200px;
+  padding-top: 20px;
+  padding-left: 20px;
+  position: sticky;
+  bottom: 50%;
+  left: 72%;
+}
